@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DXWebApplication1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://*:5000/"
+    }
+  }
+}
