@@ -5,19 +5,19 @@
 <!-- default badges end -->
 # Reporting for ASP.NET Core - Standalone Report Parameters Panel
 
-This example shows how to use the Standalone Report Parameters panel in an ASP.NET Core application.
+This example uses the standalone DevExpress Report Parameters Panel in an ASP.NET Core-powered application.
 
 ![Standalone Report Parameters Panel](images/screenshot.png)
 
-The application includes two pages: one with the standalone report options panel and the other with the document viewer. Both pages load the same sample report.
+The application includes two pages: one with the standalone Report Options Panel and the other with the DevExpress Document Viewer. Both pages load the same sample report.
 
-The report is a list of invoices from the Northwind database. It includes parameters created in Visual Studio Report Designer that are used to filter the report data.
+The report is a list of invoices from the Northwind database. It includes parameters created with our Visual Studio Report Designer – parameters that are used to filter the report data.
 
-The parameter panel layout is created in code in the report class constructor using the [ParameterPanelFluentBuilder](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Parameters.ParameterPanelFluentBuilder) class . 
+Parameter Panel layout is created in code in the report class constructor using the [ParameterPanelFluentBuilder](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Parameters.ParameterPanelFluentBuilder) class . 
 
-A model for the Standalone Report Parameters Panel component is created in the **ParametersPanel** controller action on the server. The model contains a report instance with the layout information that the Standalone Report Parameters Panel retrieves. The parameter panel layout information is stored  in the [XtraReport.ParameterPanelLayoutItems](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ParameterPanelLayoutItems) collection.
+A model for the standalone Report Parameters Panel component is created in the **ParametersPanel** controller action on the server. The model contains a report instance with necessary layout information, which is subsequently retrieved by the standalone Report Parameters Panel. Parameter Panel layout information is stored  in the [XtraReport.ParameterPanelLayoutItems](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ParameterPanelLayoutItems) collection.
 
-The client-side JavaScript code adds an Export button to the Standalone Report Parameter Panel component. When the user clicks the button, a request to the **ExportReport** controller action is executed, and the resulting PDF file is sent to the client.
+Client-side JavaScript code adds an Export button to the standalone Report Parameter Panel component. When the user clicks the button, a request to the **ExportReport** controller action is executed, and the resulting PDF file is sent to the client.
 
 ## Files to Review
 
