@@ -14,7 +14,7 @@ namespace DXWebApplication1.PredefinedReports
         {
             ["TestReport"] = () => new TestReport(),
             ["ParametersPanelReport"] = () => new ParametersPanelReport(),
-            ["ParametersPanelReport001"] = () => new ParametersPanelReport()
+            ["ParametersPanelReportSample"] = () => new ParametersPanelReportSample()
         };
     }
 }

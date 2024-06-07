@@ -21,7 +21,7 @@ namespace DXWebApplication1.Controllers {
         public IActionResult DocumentViewer(
             [FromServices] IWebDocumentViewerClientSideModelGenerator viewerModelGenerator,
             [FromQuery] string reportName) {
-            reportName = string.IsNullOrEmpty(reportName) ? "ParametersPanelReport001" : reportName;
+            reportName = string.IsNullOrEmpty(reportName) ? "ParametersPanelReport" : reportName;
             var viewerModel = viewerModelGenerator.GetModel(reportName, CustomWebDocumentViewerController.DefaultUri);
             return View(viewerModel);
         }
@@ -39,7 +39,7 @@ namespace DXWebApplication1.Controllers {
         public IActionResult ParametersPanel(
             [FromQuery] string reportName,
             [FromServices] IReportParametersPanelClientSideModelGenerator clientSideModelGenerator) {
-            var reportNameToOpen = reportName ?? "ParametersPanelReport001";
+            var reportNameToOpen = reportName ?? "ParametersPanelReport";
             ReportParametersPanelModel parametersPanelModel = clientSideModelGenerator.GetModel(reportNameToOpen, WebDocumentViewerController.DefaultUri);
             return View("ParametersPanel", parametersPanelModel);
         }
