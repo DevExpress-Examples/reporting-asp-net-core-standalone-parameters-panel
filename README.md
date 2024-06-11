@@ -21,9 +21,9 @@ Client-side JavaScript code adds an Export button to the standalone Report Param
 
 ## Files to Review
 
-- [ParametersPanelReport.cs](CS\DXWebApplication1\PredefinedReports\ParametersPanelReport.cs)
-- [HomeController.cs](CS\DXWebApplication1\Controllers\HomeController.cs)
-- [ParametersPanel.cshtml](CS\DXWebApplication1\Views\Home\ParametersPanel.cshtml)
+- [ParametersPanelReport.cs](CS/DXWebApplication1/PredefinedReports/ParametersPanelReport.cs)
+- [HomeController.cs](CS/DXWebApplication1/Controllers/HomeController.cs)
+- [ParametersPanel.cshtml](CS/DXWebApplication1/Views/Home/ParametersPanel.cshtml)
 
 ## Documentation
 
