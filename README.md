@@ -2,6 +2,7 @@
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/810740390/24.1.2%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1236501)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 # Reporting for ASP.NET Core - Standalone Report Parameters Panel
 
@@ -30,3 +31,10 @@ Client-side JavaScript code adds an Export button to the standalone Report Param
 - [Standalone Report Parameters Panel](https://docs.devexpress.com/XtraReports/404883/web-reporting/standalone-parameters-panel)
 - [Standalone Report Parameters Panel in ASP.NET Core Applications](https://docs.devexpress.com/XtraReports/404888/web-reporting/asp-net-core-reporting/standalone-parameters-panel-asp-net-application/add-the-standalone-parameters-panel-to-asp-net-core-application)
 - [How to Use Parameter Values from the Standalone Report Parameters Panel (ASP.NET Core App)](https://docs.devexpress.com/XtraReports/404889/web-reporting/asp-net-core-reporting/standalone-parameters-panel-asp-net-application/send-parameters-from-panel-to-server)
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-standalone-parameters-panel&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-standalone-parameters-panel&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
