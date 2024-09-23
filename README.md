@@ -12,13 +12,13 @@ This example uses the standalone DevExpress Report Parameters Panel in an ASP.NE
 
 The application includes two pages: one with the standalone Report Options Panel and the other with the DevExpress Document Viewer. Both pages load the same sample report.
 
-The report is a list of invoices from the Northwind database. It includes parameters created with our Visual Studio Report Designer – parameters that are used to filter the report data.
+The report is a list of invoices from the Northwind database. It includes parameters created with our Visual Studio Report Designer – parameters that are used to filter report data.
 
 Parameter Panel layout is created in code in the report class constructor using the [ParameterPanelFluentBuilder](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Parameters.ParameterPanelFluentBuilder) class . 
 
-A model for the standalone Report Parameters Panel component is created in the **ParametersPanel** controller action on the server. The model contains a report instance with necessary layout information, which is subsequently retrieved by the standalone Report Parameters Panel. Parameter Panel layout information is stored  in the [XtraReport.ParameterPanelLayoutItems](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ParameterPanelLayoutItems) collection.
+A model for the standalone Report Parameters Panel component is created in the **ParametersPanel** controller action on the server. The model contains a report instance with necessary layout information (which is subsequently retrieved by the standalone Report Parameters Panel). Parameters Panel layout information is stored in the [XtraReport.ParameterPanelLayoutItems](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ParameterPanelLayoutItems) collection.
 
-Client-side JavaScript code adds an Export button to the standalone Report Parameter Panel component. When the user clicks the button, a request to the **ExportReport** controller action is executed, and the resulting PDF file is sent to the client.
+Client-side JavaScript code adds an Export button to the standalone Report Parameters Panel component. When the user clicks the button, a request to the **ExportReport** controller action is executed, and the resulting PDF file is sent to the client.
 
 ## Files to Review
 
