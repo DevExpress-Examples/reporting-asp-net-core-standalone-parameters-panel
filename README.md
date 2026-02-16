@@ -32,7 +32,7 @@ Client-side JavaScript code adds an Export button to the standalone Report Param
 - [Standalone Report Parameters Panel in ASP.NET Core Applications](https://docs.devexpress.com/XtraReports/404888/web-reporting/asp-net-core-reporting/standalone-parameters-panel-asp-net-application/add-the-standalone-parameters-panel-to-asp-net-core-application)
 - [How to Use Parameter Values from the Standalone Report Parameters Panel (ASP.NET Core App)](https://docs.devexpress.com/XtraReports/404889/web-reporting/asp-net-core-reporting/standalone-parameters-panel-asp-net-application/send-parameters-from-panel-to-server)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-standalone-parameters-panel&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-standalone-parameters-panel&~~~was_helpful=no)
 
